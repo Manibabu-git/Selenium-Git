@@ -2,8 +2,7 @@ alphabets
 a
 b
 c
-d
-e
+
 
 Numeric letters
 1
