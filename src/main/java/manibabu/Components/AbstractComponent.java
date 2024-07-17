@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import manibabu.SeleniumFrameworkDesign.CartPage;
 import manibabu.SeleniumFrameworkDesign.OrderPage;
 import manibabu.SeleniumFrameworkDesign.OrderViewPage;
@@ -40,6 +41,7 @@ public class AbstractComponent {
 		moveToElement(cartButton);
 		
 		wait.until(ExpectedConditions.visibilityOf(cartButton));
+		System.out.println(cartButton.getText());
 		cartButton.click();
 		CartPage crtpage= new CartPage(driver);
 		return crtpage;
