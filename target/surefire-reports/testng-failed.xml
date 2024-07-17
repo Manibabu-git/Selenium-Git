@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="manibabu.TestComponents.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Error Validation(failed)">
+    <classes>
+      <class name="manibabu.Tests.ErrorValidations">
+        <methods>
+          <include name="LoginErrorMessage"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manibabu.Tests.ErrorValidations -->
+      <class name="manibabu.Tests.SubmitOrder">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manibabu.Tests.SubmitOrder -->
+    </classes>
+  </test> <!-- Error Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
