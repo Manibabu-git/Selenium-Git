@@ -5,6 +5,9 @@ c
 df
 fe
 ze
+de
+fg
+hi
 
 Numeric letters
 1
