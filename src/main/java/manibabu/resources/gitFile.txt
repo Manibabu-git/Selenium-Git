@@ -4,8 +4,7 @@ b
 c
 d
 e
-f
-g
+
 Numeric letters
 1
 2
