@@ -2,7 +2,9 @@ alphabets
 a
 b
 c
-
+de
+fg
+hi
 
 Numeric letters
 1
