@@ -2,7 +2,9 @@ alphabets
 a
 b
 c
-
+df
+fe
+ze
 
 Numeric letters
 1
@@ -12,3 +14,6 @@ Numeric letters
 5
 6
 7
+8
+9
+10
