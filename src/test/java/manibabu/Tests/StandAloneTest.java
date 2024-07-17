@@ -36,8 +36,6 @@ public class StandAloneTest {
 		driver.findElement(By.id("userPassword")).sendKeys("Manibabu@373");
 		driver.findElement(By.id("login")).click();*/  
 		
-		
-		
 		/*List<WebElement> products = driver.findElements(By.cssSelector(
 				"div[class=\"col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 mb-3 ng-star-inserted\"]"));*/
 		ProductCatalogue prodcat= new  ProductCatalogue(driver);

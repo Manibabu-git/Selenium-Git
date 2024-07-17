@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import manibabu.SeleniumFrameworkDesign.CartPage;
 import manibabu.SeleniumFrameworkDesign.OrderPage;
 import manibabu.SeleniumFrameworkDesign.OrderViewPage;
