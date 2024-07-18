@@ -35,14 +35,8 @@ public class BaseTest {
 
 	public WebDriver intializeDriver() throws IOException {
 		Properties prop = new Properties();
-	//	"C:\\Users\\umanibab\\eclipse-workspace\\SeleniumFrameworkDesign\\src\\main\\java\\manibabu\\resources\\GlobalData.properties
-//		FileInputStream fis = new FileInputStream(
-//				System.getProperty("user.dir")+"//src//main//java//manibabu//resources//GlobalData.properties");
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//manibabu//resources//GlobalData.properties");
-		prop.load(fis);// load method will take the argument in stream format only
-		// we have to get browser property attribute
-		
-		
+		prop.load(fis);
 		//String browserName = prop.getProperty("browser");
 		
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser"): prop.getProperty("browser");
