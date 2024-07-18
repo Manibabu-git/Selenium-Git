@@ -4,21 +4,41 @@
   <listeners>
     <listener class-name="manibabu.TestComponents.Listeners"/>
   </listeners>
-  <test parallel="none" name="Error Validation(failed)">
+  <test parallel="none" name="Submit Order(failed)">
     <classes>
+      <class name="manibabu.Tests.SubmitOrder">
+        <methods>
+          <include name="OrderedProduct"/>
+          <include name="submitOrder"/>
+          <include name="OrderView"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manibabu.Tests.SubmitOrder -->
       <class name="manibabu.Tests.ErrorValidations">
         <methods>
-          <include name="LoginErrorMessage"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- manibabu.Tests.ErrorValidations -->
+    </classes>
+  </test> <!-- Submit Order(failed) -->
+  <test parallel="none" name="Error Validation(failed)">
+    <classes>
       <class name="manibabu.Tests.SubmitOrder">
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- manibabu.Tests.SubmitOrder -->
+      <class name="manibabu.Tests.ErrorValidations">
+        <methods>
+          <include name="LoginErrorMessage"/>
+          <include name="errorProductMessage"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manibabu.Tests.ErrorValidations -->
     </classes>
   </test> <!-- Error Validation(failed) -->
 </suite> <!-- Failed suite [Suite] -->
