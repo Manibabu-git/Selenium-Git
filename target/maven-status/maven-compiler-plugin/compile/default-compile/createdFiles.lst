@@ -1,0 +1,9 @@
+manibabu\SeleniumFrameworkDesign\OrderViewPage.class
+manibabu\Components\AbstractComponent.class
+manibabu\SeleniumFrameworkDesign\LandingPage.class
+manibabu\SeleniumFrameworkDesign\OrderPage.class
+manibabu\SeleniumFrameworkDesign\ProductCatalogue.class
+manibabu\SeleniumFrameworkDesign\CheckOutPage.class
+manibabu\resources\ExtentReporter.class
+manibabu\SeleniumFrameworkDesign\ConformationPage.class
+manibabu\SeleniumFrameworkDesign\CartPage.class
